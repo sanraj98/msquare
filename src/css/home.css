@@ -1,0 +1,55 @@
+/* home.css */
+
+/* Style for the video container as a banner */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 650px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Style for the video element */
+  #video-slider {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain video aspect ratio and cover the container */
+  }
+  
+  /* Optional: Add overlay or text styles for better visibility */
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Optional: Add styles for text inside the overlay */
+  .overlay-text {
+    /*background-image: linear-gradient(135deg, #008aff, #86d472);*/
+    margin-top: 250px;
+    font-size: 4rem;
+    font-weight: bold;
+    
+  }
+  .card {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    border: 2px solid transparent; /* Transparent border initially */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White box shadow for the light effect */
+    transition: border-color 0.3s ease; /* Add a transition for a smooth effect */
+  
+    /* Additional styling for your card */
+    padding: 20px;
+  }
+  
+  .card:hover {
+    border-color: whitesmoke; /* Change border color on hover */
+  }
+  
